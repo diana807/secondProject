@@ -22,5 +22,22 @@
         <url-pattern>/startJSP</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>StartPage</servlet-name>
+        <jsp-file>/StartPage.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StartPage</servlet-name>
+        <url-pattern>/gavangard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FillForm</servlet-name>
+        <jsp-file>/FillForm.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FillForm</servlet-name>
+        <url-pattern>/fillForm</url-pattern>
+    </servlet-mapping>
 
 </web-app>
