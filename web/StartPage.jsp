@@ -13,7 +13,7 @@
 <body>
 <p> Приветствуем на сайте нашего банка </p>
 
-<form action="/fillForm" style="border: aqua">
+<form action="/secondPage" style="border: aqua">
     <button>Хочу стать клиентом!</button>
 </form>
 

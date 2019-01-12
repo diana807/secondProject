@@ -10,17 +10,18 @@
    </servlet>
     <servlet-mapping>
         <servlet-name>Start</servlet-name>
-        <url-pattern>/startServ</url-pattern>
+        <url-pattern>/startPage</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>TestJSP</servlet-name>
-        <jsp-file>/testJSP.jsp</jsp-file>
+        <servlet-name>FillFormServlet</servlet-name>
+        <servlet-class>FillFormServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>TestJSP</servlet-name>
-        <url-pattern>/startJSP</url-pattern>
+        <servlet-name>FillFormServlet</servlet-name>
+        <url-pattern>/secondPage</url-pattern>
     </servlet-mapping>
+
 
     <servlet>
         <servlet-name>StartPage</servlet-name>
