@@ -12,6 +12,13 @@
 </head>
 <body>
 <h1>Заполните анкету</h1>
-<button></button>
+<form action="/">
+
+    <input type="text" name="FirstName" id="firstName" placeholder="Введите имя"/><br/>
+    <input type="text" name="LastName" id="lastName" placeholder="Введите фамилию"/><br/>
+    <input type="text" name="PhoneNumber" id="phoneNumber" placeholder="Введиите номер телефона"/><br/><br/>
+    <input type="submit" name="submitForm" id="submitForm" value="Отправить заявку"/>
+
+</form>
 </body>
 </html>
