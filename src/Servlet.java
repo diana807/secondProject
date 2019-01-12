@@ -13,9 +13,15 @@ public class Servlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setCharacterEncoding("UTF-8");
+
         PrintWriter pw = response.getWriter();
         pw.println("<html>");
         pw.println("<h1>Hello</h1>");
         pw.println("</html>");
+
+    request.getRequestDispatcher("/StartPage.jsp").forward(request,response);
     }
+
+
 }
